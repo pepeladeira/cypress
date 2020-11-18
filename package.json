@@ -1,0 +1,22 @@
+{
+  "name": "cypress-study",
+  "version": "1.0.0",
+  "description": "cypress study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepeladeira/cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pepeladeira/cypress/issues"
+  },
+  "homepage": "https://github.com/pepeladeira/cypress#readme",
+  "dependencies": {
+    "cypress": "^5.6.0"
+  }
+}
