@@ -1,3 +1,16 @@
+/// <reference types="cypress" />
+
+Cypress.Commands.add('goToLogin', () => {
+    cy.visit('https://pingback.com');
+
+    cy.get('.btn-login').click({
+        force: true
+    });
+
+    cy.url()
+        .should('include', '/login');
+})
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
